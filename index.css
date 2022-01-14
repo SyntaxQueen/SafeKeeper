@@ -1,14 +1,27 @@
 .topNav {
-    
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+
+.linksNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 5%;
+    flex-basis: 75%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.8em;
 }
 
 .nav-logo {
-    width: 23%;
+    width: 15%;
 }
 
 a:link {
     text-decoration: none;
-    color: #8758b9;
+    color: black;
 }
 
 a:visited {
@@ -18,4 +31,17 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: #710adf;
+}
+
+.donate {
+    color: white !important;
+    font-size: 1.1em;
+    background-color: red;
+    border-radius: .3em;
+    border: none;
+}
+
+.donate:hover, .donate:focus {
+    box-shadow: 0 0 6px rgba(88, 4, 4, 0.774); 
+    transition: 0.5s;
 }
